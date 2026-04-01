@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/devbrath-bhatt-pujari/portfolio/static/css/main.f61c144d.css",
+    "main.js": "/devbrath-bhatt-pujari/portfolio/static/js/main.b56e53c9.js",
+    "static/js/453.825386d9.chunk.js": "/devbrath-bhatt-pujari/portfolio/static/js/453.825386d9.chunk.js",
+    "index.html": "/devbrath-bhatt-pujari/portfolio/index.html",
+    "main.f61c144d.css.map": "/devbrath-bhatt-pujari/portfolio/static/css/main.f61c144d.css.map",
+    "main.b56e53c9.js.map": "/devbrath-bhatt-pujari/portfolio/static/js/main.b56e53c9.js.map",
+    "453.825386d9.chunk.js.map": "/devbrath-bhatt-pujari/portfolio/static/js/453.825386d9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f61c144d.css",
+    "static/js/main.b56e53c9.js"
+  ]
+}
