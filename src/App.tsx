@@ -8,7 +8,7 @@ import Projects from './components/projects';
 import Footer from './components/footer';
 
 const App: React.FC = () => {
-  const [isDarkMode, setIsDarkMode] = useState<boolean>(false);
+  const [isDarkMode, setIsDarkMode] = useState<boolean>(true);
 
   const toggleTheme = () => setIsDarkMode(!isDarkMode);
 
