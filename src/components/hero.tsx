@@ -21,9 +21,13 @@ const Hero: React.FC = () => {
     View My Work
   </button>
 
-  <a href="/Devbrath_Resume.pdf" download className="btn-resume">
-    <FaFileDownload /> Resume
-  </a>
+  <a 
+  href={`${process.env.PUBLIC_URL}/Devbrath_Resume.pdf`} 
+  download 
+  className="btn-resume"
+>
+  <FaFileDownload /> Resume
+</a>
 
   {/* Option 2: Scroll to Footer or open Email */}
   <button 
@@ -41,7 +45,7 @@ const Hero: React.FC = () => {
             <div className="blob-shape"></div> 
             <div className="circle-frame">
               <img 
-                src="/propic.png" 
+                src={`${process.env.PUBLIC_URL}/propic.png`} 
                 alt="Devbrath Bhatt Pujari" 
                 className="profile-photo" 
               />
