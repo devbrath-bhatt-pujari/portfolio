@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa';
 
 const Projects: React.FC = () => {
   const projectList = [
@@ -7,8 +8,8 @@ const Projects: React.FC = () => {
       category: "Full-Stack Modular Pipeline Builder",
       description: "NexusFlow is a modular, node-based pipeline builder designed for scalable workflow orchestration. It features a custom React abstraction for dynamic UI components and a FastAPI backend for graph validation.",
       tags: ["React", "React Flow", "Zustand", "FastAPI", "Python"],
-      github: "https://github.com/yourusername/vector-shift", // Update with your link
-      demo: "#" 
+      github: "https://github.com/devbrath-bhatt-pujari/nexusflow",
+      demo: "https://nexusflow-two.vercel.app/" 
     }
     // You can add more projects here in the future
   ];
@@ -22,8 +23,8 @@ const Projects: React.FC = () => {
             <div className="project-header">
               <span className="project-category">{project.category}</span>
               <div className="project-links">
-                {/* <a href={project.github} target="_blank" rel="noreferrer"><FaGithub /></a>
-                <a href={project.demo} target="_blank" rel="noreferrer"><FaExternalLinkAlt /></a> */}
+                <a href={project.github} target="_blank" rel="noreferrer"><FaGithub /></a>
+                <a href={project.demo} target="_blank" rel="noreferrer"><FaExternalLinkAlt /></a>
               </div>
             </div>
             <h3>{project.title}</h3>
